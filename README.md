@@ -24,5 +24,29 @@ Pastikan Anda sudah menginstal Python di perangkat Anda.
 
 1. **Clone Repositori**
    ```bash
-   git clone [https://github.com/usernameanda/nama-repo.git](https://github.com/usernameanda/nama-repo.git)
+   git clone [https://github.com/abma20/nama-repo.git](https://github.com/abma20/nama-repo.git)
    cd nama-repo
+Instalasi Library Gunakan virtual environment untuk hasil terbaik:
+
+Bash
+
+pip install -r requirements.txt
+Jalankan Scraper
+
+Bash
+
+python main.py
+📋 Fitur
+[x] Ekstraksi judul berita/produk secara otomatis.
+
+[x] Pembersihan data (cleaning) dari tag HTML yang tidak perlu.
+
+[x] Penyimpanan data otomatis ke file .csv.
+
+[x] Penanganan error koneksi (Error Handling).
+
+⚖️ Etika & Disclaimer
+Proyek ini dibuat hanya untuk tujuan edukasi. Pengembang tidak bertanggung jawab atas penyalahgunaan skrip ini pada situs web yang melarang pengambilan data otomatis. Selalu periksa file robots.txt pada situs web target sebelum melakukan scraping.
+
+📄 Lisensi
+Didistribusikan di bawah Lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
